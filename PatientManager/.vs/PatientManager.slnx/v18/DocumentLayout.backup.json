@@ -1,0 +1,534 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\bll\\dtos\\medicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\medicationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\bll\\dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\prescriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\bll\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\bll\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\bll\\dtos\\diagnosisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\diagnosisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\bll\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6EAEA8-7AF0-4CEF-92E6-5AE1747A5459}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\models\\diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\diagnosis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\appointmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D9A7D-A3DF-4B4F-AAB9-679517B64152}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\applayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D9A7D-A3DF-4B4F-AAB9-679517B64152}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\medicationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\medicationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\imedicationfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\imedicationfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\prescriptionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\prescriptionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\iprescriptionfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iprescriptionfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\patientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\ipatientfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipatientfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\doctorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\doctorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\idoctorfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\idoctorfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\diagnosisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\diagnosisrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\idiagnosisfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\idiagnosisfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\iappointmentfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iappointmentfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\repos\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\medication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\dal\\ef\\pmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{674DE6AE-A432-40EC-97B7-BFDFD76263E5}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\pmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D9A7D-A3DF-4B4F-AAB9-679517B64152}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\fp\\patientmanager\\applayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{441D9A7D-A3DF-4B4F-AAB9-679517B64152}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientDTO.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\PatientDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\PatientDTO.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\PatientDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\PatientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:01:03.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorDTO.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\DoctorDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\DoctorDTO.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\DoctorDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\DoctorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:00:31.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DiagnosisDTO.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\DiagnosisDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\DiagnosisDTO.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\DiagnosisDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\DiagnosisDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:00:21.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentDTO.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\AppointmentDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\AppointmentDTO.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\AppointmentDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\AppointmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:00:12.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\AppointmentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\AppointmentRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\AppointmentRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\AppointmentRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:08:29.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Diagnosis.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Diagnosis.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Diagnosis.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Diagnosis.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Diagnosis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:31:54.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PrescriptionDTO.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\PrescriptionDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\PrescriptionDTO.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\PrescriptionDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\PrescriptionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:01:07.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicationDTO.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\MedicationDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\MedicationDTO.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\DTOs\\MedicationDTO.cs",
+              "RelativeToolTip": "BLL\\DTOs\\MedicationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T16:00:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Appointment.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Appointment.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Appointment.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:31:38.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\AppLayer\\Program.cs",
+              "RelativeDocumentMoniker": "AppLayer\\Program.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\AppLayer\\Program.cs",
+              "RelativeToolTip": "AppLayer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:42:59.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicationRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\MedicationRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\MedicationRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\MedicationRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\MedicationRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:45:48.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:41:49.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMedicationFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IMedicationFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IMedicationFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IMedicationFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IMedicationFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:45:23.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PrescriptionRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\PrescriptionRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PrescriptionRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\PrescriptionRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PrescriptionRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:44:51.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPrescriptionFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IPrescriptionFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPrescriptionFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IPrescriptionFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPrescriptionFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:44:11.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PatientRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\PatientRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PatientRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\PatientRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PatientRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:43:37.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPatientFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IPatientFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPatientFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IPatientFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPatientFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:42:59.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DoctorRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\DoctorRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\DoctorRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\DoctorRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\DoctorRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:35:50.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDoctorFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IDoctorFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IDoctorFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IDoctorFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IDoctorFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:35:29.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IDiagnosisFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IDiagnosisFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IDiagnosisFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IDiagnosisFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IDiagnosisFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:27:49.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DiagnosisRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\DiagnosisRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\DiagnosisRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\DiagnosisRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\DiagnosisRepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:27:36.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAppointmentFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IAppointmentFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IAppointmentFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IAppointmentFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IAppointmentFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:21:16.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:01:29.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\Repository.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\Repos\\Repository.cs",
+              "RelativeToolTip": "DAL\\Repos\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:50:06.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\AppLayer\\appsettings.json",
+              "RelativeDocumentMoniker": "AppLayer\\appsettings.json",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\AppLayer\\appsettings.json",
+              "RelativeToolTip": "AppLayer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-11T14:45:08.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Doctor.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Doctor.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Doctor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:32:07.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Prescription.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Prescription.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Prescription.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:33:08.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Patient.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Patient.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:32:45.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Medication.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Medication.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\Models\\Medication.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\Models\\Medication.cs",
+              "RelativeToolTip": "DAL\\EF\\Models\\Medication.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:32:25.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PMContext.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\PMContext.cs",
+              "RelativeDocumentMoniker": "DAL\\EF\\PMContext.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\EF\\PMContext.cs",
+              "RelativeToolTip": "DAL\\EF\\PMContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T14:30:47.657Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
