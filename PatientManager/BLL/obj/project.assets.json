@@ -1768,11 +1768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\BLL.csproj",
+      "projectPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\Tanjim\\.nuget\\packages\\",
-      "outputPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\BLL\\obj\\",
+      "outputPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1793,8 +1793,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\FP\\PatientManager\\DAL\\DAL.csproj"
+            "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\DAL.csproj"
             }
           }
         }
