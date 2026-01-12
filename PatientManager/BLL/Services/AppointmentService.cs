@@ -35,6 +35,8 @@ namespace BLL.Services
 
         public bool Create(AppointmentDTO dto)
         {
+            dto.Status = "Scheduled";
+
             var ex = MapperConfig.GetMapper().Map<Appointment>(dto);
             return factory.GetRepo<Appointment>().Create(ex);
         }

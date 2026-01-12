@@ -1429,7 +1429,10 @@
             "type": "string"
           },
           "status": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "patientID": {
             "pattern": "^-?(?:0|[1-9]\\d*)$",
