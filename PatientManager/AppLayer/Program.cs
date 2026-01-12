@@ -1,3 +1,4 @@
+using BLL.Services;
 using DAL;
 using DAL.EF;
 using DAL.Interfaces;
@@ -16,8 +17,16 @@ builder.Services.AddDbContext<PMContext>(opt => {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DbConn"));
 });
 
-builder.Services.AddScoped(typeof(IRepository<>));
-builder.Services.AddScoped(typeof(Repository<>));
+
+builder.Services.AddScoped<AppointmentService>();
+builder.Services.AddScoped<DiagnosisService>();
+builder.Services.AddScoped<DoctorService>();
+builder.Services.AddScoped<PatientService>();
+builder.Services.AddScoped<MedicationService>();
+builder.Services.AddScoped<PrescriptionService>();
+
+
+builder.Services.AddScoped(typeof(DAL.Interfaces.IRepository<>), typeof(DAL.Repos.Repository<>));
 
 builder.Services.AddScoped<DataAccessFactory>();
 

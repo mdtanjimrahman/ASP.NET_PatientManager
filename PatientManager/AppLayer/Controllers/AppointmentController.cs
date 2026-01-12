@@ -23,12 +23,13 @@ namespace AppLayer.Controllers
             return Ok(service.GetAll());
         }
 
-        // GET: api/appointment/get/5
+        // GET: api/appointment/get/1
         [HttpGet("get/{id}")]
         public ActionResult<AppointmentDTO> Get(int id)
         {
             var data = service.GetById(id);
-            if (data == null) return NotFound();
+            if (data == null) 
+                return NotFound();
             return Ok(data);
         }
 
@@ -65,8 +66,8 @@ namespace AppLayer.Controllers
 
         //Feature
 
-        // PUT: api/appointment/change-status/{appointmentId}/{status}
-        [HttpPut("change-status/{appointmentId}/{status}")]
+        // PUT: api/appointment/change-status/{appointmentId}/{status}  status: Scheduled, Completed, Canceled
+        [HttpPut("ChngStat/{appointmentId}/{status}")]
         public ActionResult ChangeStatus(int appointmentId, string status)
         {
             if (service.ChangeStatus(appointmentId, status))

@@ -1,4 +1,5 @@
 ﻿using BLL.DTOs;
+using DAL;
 using DAL.EF.Models;
 using DAL.Interfaces;
 using DAL.Repos;
@@ -10,55 +11,53 @@ namespace BLL.Services
 {
     public class PrescriptionService
     {
-        Repository<Prescription> repo;
-        IPrescriptionFeature featureRepo;
+        DataAccessFactory factory;
 
-        public PrescriptionService(Repository<Prescription> repo, IPrescriptionFeature featureRepo)
+        public PrescriptionService(DataAccessFactory factory)
         {
-            this.repo = repo;
-            this.featureRepo = featureRepo;
+            this.factory = factory;
         }
 
         public List<PrescriptionDTO> GetAll()
         {
-            var data = repo.Get();
+            var data = factory.GetRepo<Prescription>().Get();
             return MapperConfig.GetMapper().Map<List<PrescriptionDTO>>(data);
         }
 
-        public PrescriptionDTO GetById(int id)
+        public PrescriptionDTO Get(int id)
         {
-            var p = repo.Get(id);
-            return MapperConfig.GetMapper().Map<PrescriptionDTO>(p);
+            var data = factory.GetRepo<Prescription>().Get(id);
+            return MapperConfig.GetMapper().Map<PrescriptionDTO>(data);
         }
 
         public bool Create(PrescriptionDTO dto)
         {
-            var p = MapperConfig.GetMapper().Map<Prescription>(dto);
-            return repo.Create(p);
+            var ex = MapperConfig.GetMapper().Map<Prescription>(dto);
+            return factory.GetRepo<Prescription>().Create(ex);
         }
 
         public bool Update(PrescriptionDTO dto)
         {
-            var p = MapperConfig.GetMapper().Map<Prescription>(dto);
-            return repo.Update(p);
+            var ex = MapperConfig.GetMapper().Map<Prescription>(dto);
+            return factory.GetRepo<Prescription>().Update(ex);
         }
 
         public bool Delete(int id)
         {
-            return repo.Delete(id);
+            return factory.GetRepo<Prescription>().Delete(id);
         }
 
 
         //Feature
         public List<PrescriptionDTO> GetByPatient(int patientId)
         {
-            var data = featureRepo.GetByPatient(patientId);
+            var data = factory.PrescriptionFeature().GetByPatient(patientId);
             return data.Select(p => MapperConfig.GetMapper().Map<PrescriptionDTO>(p)).ToList();
         }
 
         public List<PrescriptionDTO> GetByDoctor(int doctorId)
         {
-            var data = featureRepo.GetByDoctor(doctorId);
+            var data = factory.PrescriptionFeature().GetByDoctor(doctorId);
             return data.Select(p => MapperConfig.GetMapper().Map<PrescriptionDTO>(p)).ToList();
         }
     }

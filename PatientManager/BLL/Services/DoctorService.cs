@@ -1,4 +1,5 @@
 ﻿using BLL.DTOs;
+using DAL;
 using DAL.EF.Models;
 using DAL.Interfaces;
 using DAL.Repos;
@@ -10,55 +11,53 @@ namespace BLL.Services
 {
     public class DoctorService
     {
-        Repository<Doctor> repo;
-        IDoctorFeature featureRepo;
+        DataAccessFactory factory;
 
-        public DoctorService(Repository<Doctor> repo, IDoctorFeature featureRepo)
+        public DoctorService(DataAccessFactory factory)
         {
-            this.repo = repo;
-            this.featureRepo = featureRepo;
+            this.factory = factory;
         }
 
         public List<DoctorDTO> GetAll()
         {
-            var data = repo.Get();
+            var data = factory.GetRepo<Doctor>().Get();
             return MapperConfig.GetMapper().Map<List<DoctorDTO>>(data);
         }
 
-        public DoctorDTO GetById(int id)
+        public DoctorDTO Get(int id)
         {
-            var d = repo.Get(id);
-            return MapperConfig.GetMapper().Map<DoctorDTO>(d);
+            var data = factory.GetRepo<Doctor>().Get(id);
+            return MapperConfig.GetMapper().Map<DoctorDTO>(data);
         }
 
         public bool Create(DoctorDTO dto)
         {
-            var d = MapperConfig.GetMapper().Map<Doctor>(dto);
-            return repo.Create(d);
+            var ex = MapperConfig.GetMapper().Map<Doctor>(dto);
+            return factory.GetRepo<Doctor>().Create(ex);
         }
 
         public bool Update(DoctorDTO dto)
         {
-            var d = MapperConfig.GetMapper().Map<Doctor>(dto);
-            return repo.Update(d);
+            var ex = MapperConfig.GetMapper().Map<Doctor>(dto);
+            return factory.GetRepo<Doctor>().Update(ex);
         }
 
         public bool Delete(int id)
         {
-            return repo.Delete(id);
+            return factory.GetRepo<Doctor>().Delete(id);
         }
 
         //Feature
         public List<DoctorDTO> GetBySpecialization(string specialization)
         {
-            var data = featureRepo.GetBySpecialization(specialization);
+            var data = factory.DoctorFeature().GetBySpecialization(specialization);
             return data.Select(d => MapperConfig.GetMapper().Map<DoctorDTO>(d)).ToList();
         }
 
         public DoctorDTO GetByEmail(string email)
         {
-            var doctor = featureRepo.GetByEmail(email);
-            return MapperConfig.GetMapper().Map<DoctorDTO>(doctor);
+            var data = factory.DoctorFeature().GetByEmail(email);
+            return MapperConfig.GetMapper().Map<DoctorDTO>(data);
         }
     }
 }

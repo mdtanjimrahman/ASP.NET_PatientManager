@@ -1,18 +1,16 @@
 ﻿using DAL.EF;
 using DAL.EF.Models;
 using DAL.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DAL.Repos
 {
-    internal class AppointmentRepo
-        : Repository<Appointment>, IAppointmentFeature
+    internal class AppointmentRepo : Repository<Appointment>, IAppointmentFeature
     {
-        public AppointmentRepo(PMContext db) : base(db)
-        {
-        }
+        public AppointmentRepo(PMContext db) : base(db) { }
 
         // CRUD available from base Repo
 
@@ -38,14 +36,21 @@ namespace DAL.Repos
 
         public bool ChangeStatus(int appointmentId, string status)
         {
-            var appointment = (from a in db.Appointments
-                               where a.AppointmentID == appointmentId
-                               select a).FirstOrDefault();
+            var ap = db.Appointments.FirstOrDefault(a => a.AppointmentID == appointmentId);
 
-            if (appointment == null) return false;
+            if (ap == null) return false;
 
-            appointment.Status = status;
-            return db.SaveChanges() > 0;
+            ap.Status = status;
+            db.SaveChanges();
+            return true;
+        }
+
+        public Appointment GetWithRelations(int appointmentId)
+        {
+            return db.Appointments
+                     .Include(a => a.Patient)
+                     .Include(a => a.Doctor)
+                     .FirstOrDefault(a => a.AppointmentID == appointmentId);
         }
     }
 }

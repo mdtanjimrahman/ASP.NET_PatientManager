@@ -312,10 +312,13 @@ D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLay
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\staticwebassets.development.json
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\swae.build.ex.cache
-D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\AppLayer.csproj.Up2Date
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\AppLayer.dll
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\refint\AppLayer.dll
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\AppLayer.pdb
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\AppLayer.genruntimeconfig.cache
 D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\ref\AppLayer.dll
+D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\bin\Debug\net10.0\BouncyCastle.Cryptography.dll
+D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\bin\Debug\net10.0\MailKit.dll
+D:\VARSITY\9. Fall 25-26\.NET\Final\ASP.NET_PatientManager\PatientManager\AppLayer\bin\Debug\net10.0\MimeKit.dll

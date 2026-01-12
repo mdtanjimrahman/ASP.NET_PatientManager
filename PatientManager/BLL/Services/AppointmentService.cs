@@ -1,4 +1,6 @@
 ﻿using BLL.DTOs;
+using BLL.Helpers;
+using DAL;
 using DAL.EF.Models;
 using DAL.Interfaces;
 using DAL.Repos;
@@ -10,43 +12,42 @@ namespace BLL.Services
 {
     public class AppointmentService
     {
-        Repository<Appointment> repo;
-        IAppointmentFeature featureRepo;
+        DataAccessFactory factory;
 
-        public AppointmentService(Repository<Appointment> repo, IAppointmentFeature featureRepo)
+        public AppointmentService(DataAccessFactory factory)
         {
-            this.repo = repo;
-            this.featureRepo = featureRepo;
+            this.factory = factory;
         }
 
-        // CRUD via generic repo
+
+        // CRUD via generic repository
         public List<AppointmentDTO> GetAll()
         {
-            var data = repo.Get();
+            var data = factory.GetRepo<Appointment>().Get();
             return MapperConfig.GetMapper().Map<List<AppointmentDTO>>(data);
         }
 
         public AppointmentDTO GetById(int id)
         {
-            var a = repo.Get(id);
-            return MapperConfig.GetMapper().Map<AppointmentDTO>(a);
+            var data = factory.GetRepo<Appointment>().Get(id);
+            return MapperConfig.GetMapper().Map<AppointmentDTO>(data);
         }
 
         public bool Create(AppointmentDTO dto)
         {
-            var a = MapperConfig.GetMapper().Map<Appointment>(dto);
-            return repo.Create(a);
+            var ex = MapperConfig.GetMapper().Map<Appointment>(dto);
+            return factory.GetRepo<Appointment>().Create(ex);
         }
 
         public bool Update(AppointmentDTO dto)
         {
-            var a = MapperConfig.GetMapper().Map<Appointment>(dto);
-            return repo.Update(a);
+            var ex = MapperConfig.GetMapper().Map<Appointment>(dto);
+            return factory.GetRepo<Appointment>().Update(ex);
         }
 
         public bool Delete(int id)
         {
-            return repo.Delete(id);
+            return factory.GetRepo<Appointment>().Delete(id);
         }
 
 
@@ -54,21 +55,43 @@ namespace BLL.Services
         // features via feature repo
         public bool ChangeStatus(int appointmentId, string status)
         {
-            return featureRepo.ChangeStatus(appointmentId, status);
+            var success = factory.AppointmentFeature().ChangeStatus(appointmentId, status);
+
+            if (!success) return false;
+
+            // Send email only if canceled
+            if (status == "Canceled")
+            {
+                var ap = factory.AppointmentFeature().GetWithRelations(appointmentId);
+
+                if (ap != null && ap.Patient != null && ap.Doctor != null)
+                {
+                    string body =
+                        $"Hello {ap.Patient.FirstName},\n\n" +
+                        $"Your appointment with Dr. {ap.Doctor.FirstName} {ap.Doctor.LastName} " +
+                        $"scheduled on {ap.AppointmentDate:dddd, MMM dd yyyy hh:mm tt} " +
+                        $"has been CANCELED due to unavoidable circumstances.\n\n" +
+                        $"Sorry for the inconvenience.";
+
+                    EmailHelper.SendEmail(ap.Patient.Email, "Appointment Canceled", body);
+                }
+            }
+
+            return true;
         }
 
-        // Get appointments by Doctor
+
+
         public List<AppointmentDTO> GetByDoctor(int doctorId)
         {
-            var data = featureRepo.GetByDoctor(doctorId);
-            return data.Select(a => MapperConfig.GetMapper().Map<AppointmentDTO>(a)).ToList();
+            var data = factory.AppointmentFeature().GetByDoctor(doctorId);
+            return data.Select(a =>MapperConfig.GetMapper().Map<AppointmentDTO>(a)).ToList();
         }
 
-        // Get appointments by Patient
         public List<AppointmentDTO> GetByPatient(int patientId)
         {
-            var data = featureRepo.GetByPatient(patientId);
-            return data.Select(a => MapperConfig.GetMapper().Map<AppointmentDTO>(a)).ToList();
+            var data = factory.AppointmentFeature().GetByPatient(patientId);
+            return data.Select(a =>MapperConfig.GetMapper().Map<AppointmentDTO>(a)).ToList();
         }
     }
 }

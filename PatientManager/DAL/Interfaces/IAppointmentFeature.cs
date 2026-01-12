@@ -10,5 +10,6 @@ namespace DAL.Interfaces
         List<Appointment> GetByDoctor(int doctorId);
         List<Appointment> GetByPatient(int patientId);
         bool ChangeStatus(int appointmentId, string status);
+        Appointment GetWithRelations(int appointmentId);
     }
 }

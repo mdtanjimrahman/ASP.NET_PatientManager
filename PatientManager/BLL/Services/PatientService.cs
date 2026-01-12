@@ -1,4 +1,5 @@
 ﻿using BLL.DTOs;
+using DAL;
 using DAL.EF.Models;
 using DAL.Interfaces;
 using DAL.Repos;
@@ -10,57 +11,54 @@ namespace BLL.Services
 {
     public class PatientService
     {
-        Repository<Patient> repo;
-        IPatientFeature featureRepo;
+        DataAccessFactory factory;
 
-        public PatientService(Repository<Patient> repo, IPatientFeature featureRepo)
+        public PatientService(DataAccessFactory factory)
         {
-            this.repo = repo;
-            this.featureRepo = featureRepo;
+            this.factory = factory;
         }
 
         //crud
         public List<PatientDTO> GetAll()
         {
-            var data = repo.Get();
+            var data = factory.GetRepo<Patient>().Get();
             return MapperConfig.GetMapper().Map<List<PatientDTO>>(data);
         }
 
-        public PatientDTO GetById(int id)
+        public PatientDTO Get(int id)
         {
-            var p = repo.Get(id);
-            return MapperConfig.GetMapper().Map<PatientDTO>(p);
+            var data = factory.GetRepo<Patient>().Get(id);
+            return MapperConfig.GetMapper().Map<PatientDTO>(data);
         }
 
         public bool Create(PatientDTO dto)
         {
-            var p = MapperConfig.GetMapper().Map<Patient>(dto);
-            return repo.Create(p);
+            var ex = MapperConfig.GetMapper().Map<Patient>(dto);
+            return factory.GetRepo<Patient>().Create(ex);
         }
 
         public bool Update(PatientDTO dto)
         {
-            var p = MapperConfig.GetMapper().Map<Patient>(dto);
-            return repo.Update(p);
+            var ex = MapperConfig.GetMapper().Map<Patient>(dto);
+            return factory.GetRepo<Patient>().Update(ex);
         }
 
         public bool Delete(int id)
         {
-            return repo.Delete(id);
+            return factory.GetRepo<Patient>().Delete(id);
         }
 
 
         //Feature
         public PatientDTO GetByEmail(string email)
         {
-            var p = featureRepo.GetByEmail(email);
-            return MapperConfig.GetMapper().Map<PatientDTO>(p);
+            var data = factory.PatientFeature().GetByEmail(email);
+            return MapperConfig.GetMapper().Map<PatientDTO>(data);
         }
 
-        // Get all patients by Gender
         public List<PatientDTO> GetByGender(string gender)
         {
-            var data = featureRepo.GetByGender(gender);
+            var data = factory.PatientFeature().GetByGender(gender);
             return data.Select(p => MapperConfig.GetMapper().Map<PatientDTO>(p)).ToList();
         }
     }
