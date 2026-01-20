@@ -84,8 +84,8 @@ namespace AppLayer.Controllers
             return Ok(data);
         }
 
-        // GET: api/Patient/ByPatient/{patientId}
-        [HttpGet("ByPatient/{patientId}")]
+        // GET: api/Patient/report/{patientId}
+        [HttpGet("report/{patientId}")]
         public ActionResult<List<PatientDiagnosisDTO>> GetPatientReport(int patientId)
         {
             var data = s.GetPatientDiagnosisById(patientId);

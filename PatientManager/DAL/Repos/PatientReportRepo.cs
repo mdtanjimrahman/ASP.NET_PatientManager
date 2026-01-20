@@ -1,5 +1,6 @@
 ﻿using DAL.EF;
 using DAL.Interfaces;
+using DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -15,18 +16,7 @@ namespace DAL.Repos
             this.db = db;
         }
 
-        // Internal helper class
-        private class TempPatientDiagnosis
-        {
-            public string PatientName { get; set; }
-            public string DiagnosisDetails { get; set; }
-            public string DiagnosisDate { get; set; }
-            public string MedicationName { get; set; }
-            public string Dosage { get; set; }
-            public string Duration { get; set; }
-        }
-
-        public List<object> GetPatientDiagnosisById(int patientId)
+        public List<PatientDiagnosisRecord> GetPatientDiagnosisById(int patientId)
         {
             var data = from p in db.Patients
                        join d in db.Diagnoses on p.PatientID equals d.PatientID
@@ -35,7 +25,7 @@ namespace DAL.Repos
                        join m in db.Medications on pr.PrescriptionID equals m.PrescriptionID into meds
                        from med in meds.DefaultIfEmpty()
                        where p.PatientID == patientId
-                       select new TempPatientDiagnosis
+                       select new PatientDiagnosisRecord
                        {
                            PatientName = p.FirstName + " " + p.LastName,
                            DiagnosisDetails = d.DiagnosisDetails,
@@ -45,7 +35,7 @@ namespace DAL.Repos
                            Duration = med != null ? med.Duration : "-"
                        };
 
-            return data.Cast<object>().ToList();
+            return data.ToList();
         }
     }
 }

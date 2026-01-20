@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\summaryreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\summaryreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\models\\patientdiagnosisrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\patientdiagnosisrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\services\\patientreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\patientreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\repos\\patientreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\patientreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\interfaces\\ipatientreportfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipatientreportfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\medicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\medicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\controllers\\summaryreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\controllers\\summaryreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\applayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0B3B6C2-3339-9CB5-77E7-F31BED4D1906}|AppLayer\\AppLayer.csproj|solutionrelative:applayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\services\\patientreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\patientreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,18 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\dtos\\patientdiagnosisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\patientdiagnosisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\repos\\patientreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repos\\patientreportrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\dal\\interfaces\\ipatientreportfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ipatientreportfeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|d:\\varsity\\9. fall 25-26\\.net\\final\\asp.net_patientmanager\\patientmanager\\bll\\dtos\\systemsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -147,53 +159,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DoctorController.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\DoctorController.cs",
-              "RelativeDocumentMoniker": "AppLayer\\Controllers\\DoctorController.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\DoctorController.cs",
-              "RelativeToolTip": "AppLayer\\Controllers\\DoctorController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswEIAAAAiAAAAAAAAAA==",
+              "Title": "PatientReportRepo.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\PatientReportRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repos\\PatientReportRepo.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\PatientReportRepo.cs",
+              "RelativeToolTip": "DAL\\Repos\\PatientReportRepo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwBIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:21:10.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppointmentService.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\AppointmentService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\AppointmentService.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\AppointmentService.cs",
-              "RelativeToolTip": "BLL\\Services\\AppointmentService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:43:24.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "AppLayer\\Controllers\\PatientController.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "AppLayer\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAA/wE4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:06:40.427Z",
+              "WhenOpened": "2026-01-20T13:01:23.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SummaryReportController.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\SummaryReportController.cs",
-              "RelativeDocumentMoniker": "AppLayer\\Controllers\\SummaryReportController.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\SummaryReportController.cs",
-              "RelativeToolTip": "AppLayer\\Controllers\\SummaryReportController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAKAAAAAAAAAA==",
+              "Title": "PatientDiagnosisRecord.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Models\\PatientDiagnosisRecord.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\PatientDiagnosisRecord.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Models\\PatientDiagnosisRecord.cs",
+              "RelativeToolTip": "DAL\\Models\\PatientDiagnosisRecord.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T10:16:28.021Z",
+              "WhenOpened": "2026-01-20T15:18:52.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAIAywD8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:01:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AppointmentService.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "BLL\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:43:24.847Z",
               "EditorCaption": ""
             },
             {
@@ -204,14 +216,104 @@
               "RelativeDocumentMoniker": "AppLayer\\Controllers\\AppointmentController.cs",
               "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "AppLayer\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAwwE4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwBkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T10:28:08.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "IPatientReportFeature.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IPatientReportFeature.cs",
+              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPatientReportFeature.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IPatientReportFeature.cs",
+              "RelativeToolTip": "DAL\\Interfaces\\IPatientReportFeature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:00:24.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientReportService.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\PatientReportService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\PatientReportService.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\PatientReportService.cs",
+              "RelativeToolTip": "BLL\\Services\\PatientReportService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:03:49.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MedicationController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\MedicationController.cs",
+              "RelativeDocumentMoniker": "AppLayer\\Controllers\\MedicationController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\MedicationController.cs",
+              "RelativeToolTip": "AppLayer\\Controllers\\MedicationController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T15:01:32.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "AppLayer\\Controllers\\PrescriptionController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "AppLayer\\Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T15:11:19.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SummaryReportController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\SummaryReportController.cs",
+              "RelativeDocumentMoniker": "AppLayer\\Controllers\\SummaryReportController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\SummaryReportController.cs",
+              "RelativeToolTip": "AppLayer\\Controllers\\SummaryReportController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T10:16:28.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "AppLayer\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "AppLayer\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwFcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:06:40.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "AppLayer\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "AppLayer\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T13:21:10.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "AppLayer\\Controllers\\PaymentController.cs",
@@ -224,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Program.cs",
               "RelativeDocumentMoniker": "AppLayer\\Program.cs",
@@ -232,25 +334,11 @@
               "RelativeToolTip": "AppLayer\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAwwBwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T10:23:15.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T10:23:15.162Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PatientReportService.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\PatientReportService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\PatientReportService.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\PatientReportService.cs",
-              "RelativeToolTip": "BLL\\Services\\PatientReportService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:03:49.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "AppointmentDTO.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\DTOs\\AppointmentDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\AppointmentDTO.cs",
@@ -258,12 +346,11 @@
               "RelativeToolTip": "BLL\\DTOs\\AppointmentDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T16:00:12.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T16:00:12.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "AppointmentStatusSummaryDTO.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\DTOs\\AppointmentStatusSummaryDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\AppointmentStatusSummaryDTO.cs",
@@ -271,38 +358,11 @@
               "RelativeToolTip": "BLL\\DTOs\\AppointmentStatusSummaryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T10:06:10.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T10:06:10.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PatientReportRepo.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\PatientReportRepo.cs",
-              "RelativeDocumentMoniker": "DAL\\Repos\\PatientReportRepo.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\PatientReportRepo.cs",
-              "RelativeToolTip": "DAL\\Repos\\PatientReportRepo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:01:23.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPatientReportFeature.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IPatientReportFeature.cs",
-              "RelativeDocumentMoniker": "DAL\\Interfaces\\IPatientReportFeature.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IPatientReportFeature.cs",
-              "RelativeToolTip": "DAL\\Interfaces\\IPatientReportFeature.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:00:24.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "PaymentRepo.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\PaymentRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\PaymentRepo.cs",
@@ -310,12 +370,11 @@
               "RelativeToolTip": "DAL\\Repos\\PaymentRepo.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:27:12.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T12:27:12.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "PatientRepo.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\PatientRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\PatientRepo.cs",
@@ -323,12 +382,11 @@
               "RelativeToolTip": "DAL\\Repos\\PatientRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:56:20.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T12:56:20.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "PatientDiagnosisDTO.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\DTOs\\PatientDiagnosisDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\PatientDiagnosisDTO.cs",
@@ -336,12 +394,11 @@
               "RelativeToolTip": "BLL\\DTOs\\PatientDiagnosisDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:05:08.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T13:05:08.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ISummaryReport.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\ISummaryReport.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\ISummaryReport.cs",
@@ -349,12 +406,11 @@
               "RelativeToolTip": "DAL\\Interfaces\\ISummaryReport.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T09:58:06.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T09:58:06.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "SystemSummaryDTO.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\DTOs\\SystemSummaryDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\SystemSummaryDTO.cs",
@@ -362,25 +418,11 @@
               "RelativeToolTip": "BLL\\DTOs\\SystemSummaryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T10:04:11.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T10:04:11.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
-              "ToolTip": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\DataAccessFactory.cs",
-              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T10:01:18.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Payment.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\EF\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Models\\Payment.cs",
@@ -392,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "PMContext.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\EF\\PMContext.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\PMContext.cs",
@@ -404,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "SummaryReportRepo.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\SummaryReportRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\SummaryReportRepo.cs",
@@ -412,12 +454,11 @@
               "RelativeToolTip": "DAL\\Repos\\SummaryReportRepo.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T09:58:55.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T09:58:55.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "IPaymentFeature.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IPaymentFeature.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IPaymentFeature.cs",
@@ -429,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "DiagnosisController.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\AppLayer\\Controllers\\DiagnosisController.cs",
               "RelativeDocumentMoniker": "AppLayer\\Controllers\\DiagnosisController.cs",
@@ -441,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\PaymentService.cs",
@@ -453,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "AppointmentRepo.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Repos\\AppointmentRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Repos\\AppointmentRepo.cs",
@@ -465,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "IAppointmentFeature.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IAppointmentFeature.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IAppointmentFeature.cs",
@@ -477,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ReportService.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\ReportService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\ReportService.cs",
@@ -489,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "IDiagnosisFeature.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IDiagnosisFeature.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IDiagnosisFeature.cs",
@@ -501,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "EmailHelper.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Helpers\\EmailHelper.cs",
               "RelativeDocumentMoniker": "BLL\\Helpers\\EmailHelper.cs",
@@ -513,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "IMedicationFeature.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\DAL\\Interfaces\\IMedicationFeature.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IMedicationFeature.cs",
@@ -525,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "DoctorService.cs",
               "DocumentMoniker": "D:\\VARSITY\\9. Fall 25-26\\.NET\\Final\\ASP.NET_PatientManager\\PatientManager\\BLL\\Services\\DoctorService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\DoctorService.cs",

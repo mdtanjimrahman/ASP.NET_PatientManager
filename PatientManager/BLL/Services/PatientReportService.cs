@@ -18,21 +18,15 @@ namespace BLL.Services
         public List<PatientDiagnosisDTO> GetPatientDiagnosisById(int patientId)
         {
             var data = factory.PatientReportFeature().GetPatientDiagnosisById(patientId);
-
-            var ret = data.Select(d =>
+            var ret = data.Select(d => new PatientDiagnosisDTO
             {
-                dynamic temp = d;
-                return new PatientDiagnosisDTO
-                {
-                    PatientName = temp.PatientName,
-                    DiagnosisDetails = temp.DiagnosisDetails,
-                    DiagnosisDate = temp.DiagnosisDate,
-                    MedicationName = temp.MedicationName,
-                    Dosage = temp.Dosage,
-                    Duration = temp.Duration
-                };
+                PatientName = d.PatientName,
+                DiagnosisDetails = d.DiagnosisDetails,
+                DiagnosisDate = d.DiagnosisDate,
+                MedicationName = d.MedicationName,
+                Dosage = d.Dosage,
+                Duration = d.Duration
             }).ToList();
-
             return ret;
         }
     }
