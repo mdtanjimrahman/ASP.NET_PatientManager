@@ -61,6 +61,10 @@ namespace DAL
         {
             return new PaymentRepo(db);
         }
+        public IPatientReportFeature PatientReportFeature()
+        {
+            return new PatientReportRepo(db);
+        }
 
     }
 }

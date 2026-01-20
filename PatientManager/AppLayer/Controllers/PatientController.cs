@@ -10,10 +10,12 @@ namespace AppLayer.Controllers
     public class PatientController : ControllerBase
     {
         PatientService service;
+        PatientReportService s;
 
-        public PatientController(PatientService service)
+        public PatientController(PatientService service, PatientReportService s)
         {
             this.service = service;
+            this.s = s;
         }
 
         // GET: api/Patient/all
@@ -79,6 +81,17 @@ namespace AppLayer.Controllers
         public IActionResult GetByGender(string gender)
         {
             var data = service.GetByGender(gender);
+            return Ok(data);
+        }
+
+        // GET: api/Patient/ByPatient/{patientId}
+        [HttpGet("ByPatient/{patientId}")]
+        public ActionResult<List<PatientDiagnosisDTO>> GetPatientReport(int patientId)
+        {
+            var data = s.GetPatientDiagnosisById(patientId);
+            if (data == null || data.Count == 0)
+                return NotFound("No data found for this patient.");
+
             return Ok(data);
         }
     }

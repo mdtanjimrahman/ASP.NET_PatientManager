@@ -64,7 +64,7 @@ namespace AppLayer.Controllers
             return Ok("Doctor info deleted");
         }
 
-        // GET: api/Doctor/by-specialization/{specialization}
+        // GET: api/Doctor/special/{specialization}
         [HttpGet("special/{specialization}")]
         public IActionResult GetBySpecialization(string specialization)
         {

@@ -1184,6 +1184,59 @@
         }
       }
     },
+    "/api/Patient/ByPatient/{patientId}": {
+      "get": {
+        "tags": [
+          "Patient"
+        ],
+        "parameters": [
+          {
+            "name": "patientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PatientDiagnosisDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PatientDiagnosisDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PatientDiagnosisDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Payment/pay/{appointmentId}/{amount}": {
       "post": {
         "tags": [
@@ -1607,6 +1660,29 @@
               "string"
             ],
             "format": "int32"
+          }
+        }
+      },
+      "PatientDiagnosisDTO": {
+        "type": "object",
+        "properties": {
+          "patientName": {
+            "type": "string"
+          },
+          "diagnosisDetails": {
+            "type": "string"
+          },
+          "diagnosisDate": {
+            "type": "string"
+          },
+          "medicationName": {
+            "type": "string"
+          },
+          "dosage": {
+            "type": "string"
+          },
+          "duration": {
+            "type": "string"
           }
         }
       },
