@@ -1368,6 +1368,30 @@
         }
       }
     },
+    "/api/summary/sum": {
+      "get": {
+        "tags": [
+          "SummaryReport"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/summary/status-sum": {
+      "get": {
+        "tags": [
+          "SummaryReport"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -1675,6 +1699,9 @@
     },
     {
       "name": "Prescription"
+    },
+    {
+      "name": "SummaryReport"
     },
     {
       "name": "WeatherForecast"

@@ -763,6 +763,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AppLayer.Controllers.SummaryReportController",
+    "Method": "AppointmentStatus",
+    "RelativePath": "api/summary/status-sum",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppLayer.Controllers.SummaryReportController",
+    "Method": "SystemSummary",
+    "RelativePath": "api/summary/sum",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AppLayer.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

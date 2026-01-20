@@ -52,5 +52,10 @@ namespace DAL
         {
             return new MedicationRepo(db);
         }
+
+        public ISummaryReport SummaryReport()
+        {
+            return new SummaryReportRepo(db);
+        }
     }
 }

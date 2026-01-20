@@ -38,7 +38,8 @@ namespace DAL.Repos
         {
             var ap = db.Appointments.FirstOrDefault(a => a.AppointmentID == appointmentId);
 
-            if (ap == null) return false;
+            if (ap == null) 
+                return false;
 
             ap.Status = status;
             db.SaveChanges();
