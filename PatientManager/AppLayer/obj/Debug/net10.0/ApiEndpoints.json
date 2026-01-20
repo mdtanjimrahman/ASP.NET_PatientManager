@@ -22,7 +22,7 @@
   {
     "ContainingType": "AppLayer.Controllers.AppointmentController",
     "Method": "ChangeStatus",
-    "RelativePath": "api/Appointment/ChngStat/{appointmentId}/{status}",
+    "RelativePath": "api/Appointment/chngstat/{appointmentId}/{status}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -651,6 +651,27 @@
       {
         "Name": "dto",
         "Type": "BLL.DTOs.PatientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AppLayer.Controllers.PaymentController",
+    "Method": "Pay",
+    "RelativePath": "api/Payment/pay/{appointmentId}/{amount}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Double",
         "IsRequired": true
       }
     ],

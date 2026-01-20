@@ -16,6 +16,7 @@ namespace DAL.EF
         public DbSet<Diagnosis> Diagnoses { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Prescription> Prescriptions { get; set; }
+        public DbSet<Payment> Payments { get; set; }
         public DbSet<Medication> Medications { get; set; }
     }
 }

@@ -57,5 +57,10 @@ namespace DAL
         {
             return new SummaryReportRepo(db);
         }
+        public IPaymentFeature PaymentFeature()
+        {
+            return new PaymentRepo(db);
+        }
+
     }
 }

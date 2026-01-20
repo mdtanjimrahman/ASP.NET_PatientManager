@@ -186,7 +186,7 @@
         }
       }
     },
-    "/api/Appointment/ChngStat/{appointmentId}/{status}": {
+    "/api/Appointment/chngstat/{appointmentId}/{status}": {
       "put": {
         "tags": [
           "Appointment"
@@ -1184,6 +1184,46 @@
         }
       }
     },
+    "/api/Payment/pay/{appointmentId}/{amount}": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "appointmentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          },
+          {
+            "name": "amount",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?$",
+              "type": [
+                "number",
+                "string"
+              ],
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Prescription/all": {
       "get": {
         "tags": [
@@ -1696,6 +1736,9 @@
     },
     {
       "name": "Patient"
+    },
+    {
+      "name": "Payment"
     },
     {
       "name": "Prescription"

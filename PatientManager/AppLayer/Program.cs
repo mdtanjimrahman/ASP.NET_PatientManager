@@ -25,6 +25,7 @@ builder.Services.AddScoped<PatientService>();
 builder.Services.AddScoped<MedicationService>();
 builder.Services.AddScoped<PrescriptionService>();
 builder.Services.AddScoped<ReportService>();
+builder.Services.AddScoped<PaymentService>();
 
 
 builder.Services.AddScoped(typeof(DAL.Interfaces.IRepository<>), typeof(DAL.Repos.Repository<>));

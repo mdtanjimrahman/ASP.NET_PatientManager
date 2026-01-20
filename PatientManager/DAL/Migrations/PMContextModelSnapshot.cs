@@ -209,6 +209,30 @@ namespace DAL.Migrations
                     b.ToTable("Patients");
                 });
 
+            modelBuilder.Entity("DAL.EF.Models.Payment", b =>
+                {
+                    b.Property<int>("PaymentID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentID"));
+
+                    b.Property<double>("Amount")
+                        .HasColumnType("float");
+
+                    b.Property<int>("AppointmentID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("PaymentDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("PaymentID");
+
+                    b.HasIndex("AppointmentID");
+
+                    b.ToTable("Payments");
+                });
+
             modelBuilder.Entity("DAL.EF.Models.Prescription", b =>
                 {
                     b.Property<int>("PrescriptionID")
@@ -282,6 +306,17 @@ namespace DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("Prescription");
+                });
+
+            modelBuilder.Entity("DAL.EF.Models.Payment", b =>
+                {
+                    b.HasOne("DAL.EF.Models.Appointment", "Appointment")
+                        .WithMany()
+                        .HasForeignKey("AppointmentID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Appointment");
                 });
 
             modelBuilder.Entity("DAL.EF.Models.Prescription", b =>
